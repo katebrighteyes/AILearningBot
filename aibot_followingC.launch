@@ -13,7 +13,7 @@
     <param name="frame_id" value="laser"/>
   </node>
 
-  <node pkg="ros_aibot_drive" type="aibot_following2.py" name="aibot_following2" output="screen">
+  <node pkg="ros_aibot_drive" type="aibot_followingC.py" name="aibot_following2" output="screen">
     <param name="Width" value="640" />
     <param name="Height" value="480" />
   </node>

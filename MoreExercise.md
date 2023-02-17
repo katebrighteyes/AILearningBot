@@ -80,7 +80,11 @@ roslaunch ros_aibot_drive aibot_trt_ready2.launch
 
 팔로잉 + 충돌방지
 
+(파란색 라이다)
 roslaunch ros_aibot_drive aibot_following2.launch
+
+(검은색 라이다)
+roslaunch ros_aibot_drive  aibot_followingC.launch
 
 컵을 감지하면 팔로잉 하지만 근접거리에 물체가 감지되면 정지
 Ctl-C

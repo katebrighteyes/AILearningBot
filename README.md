@@ -85,7 +85,22 @@ Ctl-C
 
 # 1.4 ROS 라이다 실습
 
-ROS 라이다 예제
+## ROS 라이다 기본 예제
+
+파란색 라이다
+
+roslaunch ydlidar lidar_view.launch
+
+
+검은색 라이다
+
+roslaunch camsense_driver view.launch
+
+
+Ctl-C
+
+
+## ROS 라이다 응용 예제
 
 파란색 라이다
 

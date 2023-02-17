@@ -124,4 +124,10 @@ rosrun ros_aibot_drive aibot_lane_keeping2.py
 
 Ctl-C
 
+
+https://github.com/katebrighteyes/AILearningBot/blob/main/aibot_followingC.launch
+
+https://github.com/katebrighteyes/AILearningBot/blob/main/aibot_followingC.py
+
+
  

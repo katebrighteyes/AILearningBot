@@ -115,7 +115,7 @@ roslaunch ros_aibot_core aibot_core_ready.launch
 
 Darknet Node
 
-rosrun ros_object_detect ros_darknet_node.py
+rosrun ros_object_detect darknet_node2.py
 
 사람 인지 확인
 

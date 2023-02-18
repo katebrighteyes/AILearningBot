@@ -109,7 +109,7 @@ roslaunch ros_sensor_test lidar_sub_test.launch
 
 검은색 라이다
 
-roslaunch ros_sensor_test lidar_sub_test2.launch
+roslaunch ros_sensor_test lidar_sub_test.launch
 
 손을 가까이 대서 근접 거리 경고 확인
 

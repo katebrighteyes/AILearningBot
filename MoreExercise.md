@@ -141,6 +141,8 @@ rosrun ros_aibot_drive aibot_lane_keeping.py
 
 차선을 따라 주행하는 것을 확인
 
+(카메라 대신 비디오 사용의 경우는 rosrun ros_aibot_drive aibot_lane_keepingV.py )
+
 Ctl-C
 
 

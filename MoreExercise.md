@@ -58,9 +58,22 @@ Ctl-C
 
 # 4.	사물 인지 팔로잉
 
-## 4.1 ROS TRT + Following
+## 4.1 ROS Darknet + Following
 
-AIbot Following Ready
+AIbot Darknet Ready
+
+roslaunch ros_aibot_drive aibot_darknet_ready.launch
+
+팔로잉
+
+rosrun ros_aibot_drive aibot_following.py
+
+컵을 감지하면 팔로잉 확인
+Ctl-C
+
+## 4.2 ROS TRT + Following
+
+AIbot TRT DetectNet Ready
 
 roslaunch ros_aibot_drive aibot_trt_ready.launch
 
@@ -72,7 +85,27 @@ rosrun ros_aibot_drive aibot_following.py
 Ctl-C
 
 
-## 4.2 ROS TRT + Following + 충돌방지
+# 5.	사물 인지 팔로잉 + 충돌 방지
+
+## 5.1 ROS Darknet + Following + 충돌방지
+
+AIbot Darknet Ready
+
+roslaunch ros_aibot_drive aibot_darknet_ready.launch
+
+팔로잉
+
+(파란색 라이다)
+roslaunch ros_aibot_drive aibot_following2.launch
+
+(검은색 라이다)
+roslaunch ros_aibot_drive  aibot_followingC.launch
+
+컵을 감지하면 팔로잉 확인
+Ctl-C
+
+
+## 5.2 ROS TRT + Following + 충돌방지
 
 AIbot Following Ready
 
@@ -90,9 +123,9 @@ roslaunch ros_aibot_drive  aibot_followingC.launch
 Ctl-C
  
 
-# 5.	차선 감지 및 유지
+# 6.	차선 감지 및 유지
 
-## 5.1 AIbot + Lane Keeping
+## 6.1 AIbot + Lane Keeping
 
 AIbot Lane Keeping Ready
 
@@ -107,18 +140,11 @@ rosrun ros_aibot_drive aibot_lane_keeping.py
 Ctl-C
 
 
-## 5.2 AIbot + ROS Darknet+ Lane Keeping
+## 6.2 AIbot + ROS Darknet+ Lane Keeping
 
-AIbot Lane Keeping Ready
+AIbot Darknet Ready
 
-roslaunch ros_aibot_core aibot_core_ready.launch
-
-
-Darknet Node
-
-rosrun ros_object_detect darknet_node2.py
-
-사람 인지 확인
+roslaunch ros_aibot_drive aibot_darknet_ready.launch
 
 
 ROS OpenCV Lane Keeping
@@ -130,9 +156,6 @@ rosrun ros_aibot_drive aibot_lane_keeping2.py
 Ctl-C
 
 
-https://github.com/katebrighteyes/AILearningBot/blob/main/aibot_followingC.launch
-
-https://github.com/katebrighteyes/AILearningBot/blob/main/aibot_followingC.py
 
 
  

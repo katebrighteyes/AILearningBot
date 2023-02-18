@@ -153,7 +153,7 @@ roslaunch ros_aibot_drive aibot_darknet_ready.launch
 
 ROS OpenCV Lane Keeping
 
-rosrun ros_aibot_drive aibot_lane_keeping2.py
+rosrun ros_aibot_drive aibot_lane_keeping_aeb.py
 
 차선을 따라 주행하다가 사람을 인지하면 정지하는 것을 확인
 

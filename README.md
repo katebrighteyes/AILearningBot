@@ -78,7 +78,7 @@ python3 05_lanedetect_video.py
 
 ## ROS 카메라 예제
 
-rosrun ros_python3_test camera_node.py 
+rosrun ros_sensor_test camera_node.py 
 
 Ctl-C
 

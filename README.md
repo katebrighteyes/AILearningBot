@@ -78,7 +78,7 @@ python3 05_lanedetect_video.py
 
 ## ROS 카메라 예제
 
-roslaunch ros_aibot_core aibot_core_ready.launch
+rosrun ros_python3_test camera_node.py 
 
 Ctl-C
 

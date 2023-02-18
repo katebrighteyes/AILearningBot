@@ -22,6 +22,7 @@ roslaunch ros_object_detect ros_trt_detectnet.launch
 Ctl-C
 
 
+
 # 3.	사물 인지 자동 긴급 제동
 
 ## 3.1 ROS Darknet + AEB
@@ -85,6 +86,7 @@ rosrun ros_aibot_drive aibot_following.py
 Ctl-C
 
 
+
 # 5.	사물 인지 팔로잉 + 충돌 방지
 
 ## 5.1 ROS Darknet + Following + 충돌방지
@@ -105,6 +107,7 @@ roslaunch ros_aibot_drive  aibot_followingC_fca.launch
 Ctl-C
 
 
+
 ## 5.2 ROS TRT + Following + 충돌방지
 
 AIbot Following Ready
@@ -122,6 +125,7 @@ roslaunch ros_aibot_drive  aibot_followingC_fca.launch
 컵을 감지하면 팔로잉 하지만 근접거리에 물체가 감지되면 정지
 Ctl-C
  
+ 
 
 # 6.	차선 감지 및 유지
 
@@ -156,6 +160,3 @@ rosrun ros_aibot_drive aibot_lane_keeping2.py
 Ctl-C
 
 
-
-
- 

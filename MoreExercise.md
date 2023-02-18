@@ -28,7 +28,7 @@ Ctl-C
 
 AIbot Darknet Ready
 
-roslaunch ros_aibot_drive aibot_darknet_ready.launch
+roslaunch ros_aibot_drive aibot_darknet_ready_aeb.launch
 
 
 AEB

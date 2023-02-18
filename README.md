@@ -27,14 +27,14 @@ rosrun ros_aibot_core aibot_ctl_pub 5
 
 우회전
 
-rosrun ros_aibot_core aibot_ctl_pub 0
+rosrun ros_aibot_core aibot_ctl_pub 3
 
 우회전하면 Ctl-C
 
 
 좌회전
 
-rosrun ros_aibot_core aibot_ctl_pub 0
+rosrun ros_aibot_core aibot_ctl_pub 4
 
 좌회전하면 Ctl-C
 

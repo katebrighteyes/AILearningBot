@@ -62,7 +62,7 @@ Ctl-C
 
 AIbot Following Ready
 
-roslaunch ros_aibot_drive aibot_trt_ready2.launch
+roslaunch ros_aibot_drive aibot_trt_ready.launch
 
 팔로잉
 
@@ -76,7 +76,7 @@ Ctl-C
 
 AIbot Following Ready
 
-roslaunch ros_aibot_drive aibot_trt_ready2.launch
+roslaunch ros_aibot_drive aibot_trt_ready.launch
 
 팔로잉 + 충돌방지
 
@@ -112,6 +112,7 @@ Ctl-C
 AIbot Lane Keeping Ready
 
 roslaunch ros_aibot_core aibot_core_ready.launch
+
 
 Darknet Node
 

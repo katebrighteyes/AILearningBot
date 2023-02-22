@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+
+  <node pkg="ros_object_detect" type="ros_darknet_test.py" name="darknet_node" output="screen">
+  </node>
+
+</launch>

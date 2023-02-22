@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+
+  <node pkg="ros_sensor_test" type="camera_pub_csi.py" name="camera_pub_csi" />
+
+  <node pkg="ros_sensor_test" type="camera_sub.py" name="camera_sub" output="screen" />
+</launch>

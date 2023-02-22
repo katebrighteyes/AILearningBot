@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+
+  <node pkg="ros_aibot_core" type="aibot_can_sub" name="aibot_can_sub" output="screen">
+    <param name="motor_left" value="1.0" />
+    <param name="motor_right" value="1.0" />
+  </node>
+
+  <node pkg="ros_object_detect" type="trt_detectnet_node2.py" name="trt_detectnet_node2" output="screen">
+  </node>
+
+
+</launch>

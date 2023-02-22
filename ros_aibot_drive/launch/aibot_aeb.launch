@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+
+
+  <node pkg="ros_aibot_drive" type="aibot_aeb.py" name="aibot_aeb" output="screen">
+    <param name="Width" value="640" />
+    <param name="Height" value="480" />
+  </node>
+
+</launch>
